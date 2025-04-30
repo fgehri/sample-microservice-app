@@ -35,7 +35,7 @@ This doc explains how to build and run the Online Boutique source code locally u
     gcloud container clusters create-auto demo --region=us-central1
     ```
 
-    ```
+    ```sh
     kubectl get nodes
     ```
 
@@ -69,7 +69,9 @@ This doc explains how to build and run the Online Boutique source code locally u
 4. Find the IP address of your application, then visit the application on your
     browser to confirm installation.
 
-        kubectl get service frontend-external
+    ```sh
+    kubectl get service frontend-external
+    ```
 
 5. Navigate to `http://EXTERNAL-IP` to access the web frontend.
 
@@ -83,7 +85,7 @@ This doc explains how to build and run the Online Boutique source code locally u
         - 4.0 GiB memory
         - 32 GB disk space
 
-      ```shell
+      ```sh
       minikube start --cpus=4 --memory 4096 --disk-size 32g
       ```
 
@@ -94,7 +96,7 @@ This doc explains how to build and run the Online Boutique source code locally u
 
     - To launch a **Kind** cluster:
 
-      ```shell
+      ```sh
       kind create cluster
       ```
 
