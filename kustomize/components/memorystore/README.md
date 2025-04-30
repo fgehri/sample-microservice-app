@@ -26,8 +26,6 @@ gcloud redis instances create redis-cart \
     --redis-version=redis_7_0
 ```
 
-_Note: You can also find in this repository the Terraform script to provision the Memorystore (Redis) instance alongside the GKE cluster, more information [here](/terraform)._
-
 ## Deploy Online Boutique connected to a Memorystore (Redis) instance
 
 To automate the deployment of Online Boutique integrated with Memorystore (Redis) you can leverage the following variation with [Kustomize](../..).
