@@ -86,7 +86,7 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 
    After a few minutes, you should see the Pods in a `Running` state:
 
-   ```
+   ```sh
    NAME                                     READY   STATUS    RESTARTS   AGE
    adservice-76bdd69666-ckc5j               1/1     Running   0          2m58s
    cartservice-66d497c6b7-dp5jr             1/1     Running   0          2m59s
@@ -110,7 +110,7 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 
    Visit `http://EXTERNAL_IP` in a web browser to access your instance of Online Boutique.
 
-8. Congrats! You've deployed the default Online Boutique. To deploy a different variation of Online Boutique (e.g., with Google Cloud Operations tracing, Istio, etc.), see [Deploy Online Boutique variations with Kustomize](#deploy-online-boutique-variations-with-kustomize).
+8. Congrats! You've deployed the default Online Boutique. To deploy a different variation of Online Boutique (e.g., with Google Cloud Operations tracing, Istio, etc.), see [Deploy Online Boutique variations with Kustomize](/kustomize/README.md#deploy-online-boutique-variations-with-kustomize).
 
 9. Once you are done with it, delete the GKE cluster.
 
